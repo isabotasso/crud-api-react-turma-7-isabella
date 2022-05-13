@@ -85,7 +85,7 @@ function CustomerList(props) {
             {/* EDITAR */}
             <Modal show={showEdit} onHide={handleCloseEdit}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Editar Usuario</Modal.Title>
+                    <Modal.Title>Edite o Usuario</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <Form.Group className="mb-3" controlId="name">
